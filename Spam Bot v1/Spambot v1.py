@@ -19,6 +19,7 @@ def bas():
         keyboard.write(giris.get())
         time.sleep(z)
         keyboard.press_and_release('Enter')
+        time.sleep(0.1)
         x += 1
 
 
